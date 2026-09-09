@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+
+	<AddIn Type="Application">
+
+		<Assembly>BowWowSelection\Selection.Revit.2023.dll</Assembly>
+
+		<AddInId>5695EE21-ED9D-4B17-9244-79198FA6E258</AddInId>
+
+		<FullClassName>Selection.Revit.SelectionApp</FullClassName>
+
+		<Name>Selection Tools</Name>
+
+		<VendorId>ADSK</VendorId>
+
+		<VendorDescription>Autodesk Inc</VendorDescription>
+
+	</AddIn>
+
+</RevitAddIns>
