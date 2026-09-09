@@ -459,9 +459,3 @@ The implementation is intended for educational, development, and workflow-automa
 * Autodesk Revit API
 * Autodesk Revit
 * Autodesk Platform / Marketplace
-
-Original reference application:
-
-**BowWow Select Elements — BowWowApps**
-
-The referenced Marketplace application provides category/filter-based element selection directly from the Revit Options Bar.
