@@ -1,4 +1,6 @@
 ﻿using Selection.Revit.Models;
+using Selection.Revit.Utils;
+
 using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
@@ -25,7 +27,7 @@ namespace Selection.Revit.ViewModels
 
         public ICommand AddCommand { get; }
         public ICommand ClearCommand { get; }
-        public ICommand PostCommand { get; set; }   
+        public ICommand PostCommand { get; set; }
 
         public bool CanAddComboBox
         {
@@ -92,9 +94,9 @@ namespace Selection.Revit.ViewModels
         public void ClearItems()
         {
             CatItems.Clear();
-            CatItems.Add(new CatItem());  
+            CatItems.Add(new CatItem());
             CheckAcceptableCount();
-            
+
             CalcWidth();
         }
 
